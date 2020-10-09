@@ -14,11 +14,11 @@
 
             <div class="row justify-content-end" style="padding-top: 2%; padding-bottom: 2%; padding: 2%;">
 
-                <div class="col-4" style="text-align: right;">
-                    <i class="fa fa-github"></i>
-                    <i class="fa fa-linkedin"></i>
-                    <i class="fa fa-youtube-play"></i>
-                    <i class="fa fa-twitter"></i>
+                <div class="col-4" style="text-align: center;" id="socials">
+                    <a href="https://github.com/jm1021" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/john-mortensen-1021/" target="_blank"><i class="fa fa-linkedin" ></i></a>
+                    <a href="https://www.youtube.com/channel/UClIKOsDS5dsfzFA3zveDT3Q?view_as=subscriber" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                    <a href="https://twitter.com/NighthawkCoding" target="_blank"><i class="fa fa-twitter"></i></a>
 
                 </div>
 
@@ -37,15 +37,15 @@
 
             <div class="row" style="padding-left: 10%;">
                 <div class="col-4">
-                    <a href="#" class="btn">Project Plan</a>
+                    <a href="https://padlet.com/jmortensen7/csp2021" target="_blank" class="btn">Project Plan</a>
                 </div>
 
                 <div class="col-4">
-                    <a href="#" class="btn">Python Hello</a>
+                    <a href="https://github.com/nighthawkcoders/pythonhello" target="_blank" class="btn">Python Hello</a>
                 </div>
 
                 <div class="col-4">
-                    <a href="#" class="btn">Demo</a>
+                    <a href="https://repl.it/@jmort1021/Python-Hello-Series" target="_blank" class="btn">Demo</a>
                 </div>
 
             </div>
@@ -85,15 +85,22 @@
         }
 
 
+        a { 
+            color: inherit;
+        } 
+
+
         .fa{
             font-size: 3em;
             letter-spacing: 1em;
             transition: all .2s;
+
         }
 
         .fa:hover{
             transform: translateY(10px);
         }
+
 
         .fa-youtube-play:hover{
             color: #cc0000;
@@ -112,6 +119,8 @@
         }
 
 
+
+
         .btn:link,
         .btn:visited {
             text-transform: uppercase;
@@ -128,6 +137,7 @@
         .btn:hover {
             transform: translateY(-3px);
             box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
+
         }
 
         .btn:active {
